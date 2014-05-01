@@ -1,0 +1,41 @@
+xcode 
+	$99 a year to access an actual device 
+	SDK is free 
+
+
+	Objective-C -- same team that went on to do Java 
+		superset of C 
+		
+	
+
+	Android JNI 
+
+	Opjective-C Linux and Windows open source language 
+
+	
+		
+	Phonegap
+		JS Html 
+		webview 
+			strip out Url-bar buttons 
+			simulates a hybrid of browser and an app 
+				built for network 
+				browser can't access hardware without hooks 
+					 	
+	
+ 	Apple APIs
+		UI-components - draw buttons 
+		touch events 
+		camera audio 
+		GPS Gyroscope
+		Animations 
+		Network conn
+		file sys access
+		
+	xcode + Obj-C + IOS-api 
+
+10 days to a Month to get comfortable. 
+	in IOS 
+
+service calls --  
+	
