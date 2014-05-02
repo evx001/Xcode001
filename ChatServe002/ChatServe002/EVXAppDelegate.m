@@ -1,6 +1,6 @@
 //
 //  EVXAppDelegate.m
-//  ChatSend
+//  ChatServe002
 //
 //  Created by evx on 5/1/14.
 //  Copyright (c) 2014 evxyz001. All rights reserved.
@@ -12,23 +12,33 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    for (int i=0; i<5; i=i+1) {
-        NSLog(@"Words");
-	}
-
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    // Override point for customization after application launch.
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
     // Override point for customization after application launch.
     
     
     NSString *message = @"Hello Again";
     NSString *message2 = @"Goodbye";
-    NSString *message3 = @"Yeah, yeah!";
+    // NSString *message3 = @"Yeah, yeah!";
+    NSArray *names = @[@"Joe",@"Chet",@"Bobby"];
     NSLog(@"The message is: %@, the other message is %@",message,message2);
+    
     if ([message isEqualToString:message2]) {
         NSLog(@"if this happens we are ok");
-    }else
-    {NSLog(@"No No No!");
+    }
+    else
+    {
+        NSLog(@"No No No!");
+        for (int i=0; i<[names count]; i=i+1) {
+            NSLog(@"Hello, %@!", names[i]);
+        }
+    }
     return YES;
 }
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
