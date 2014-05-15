@@ -30,13 +30,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="ChatSend" id="vbI-8U-kgJ">
-                        <barButtonItem key="rightBarButtonItem" systemItem="camera" id="Lr1-WU-7nD">
-                            <connections>
-                                <action selector="cameraTapped:" destination="vXZ-lx-hvc" id="JBY-Fy-k3I"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="ChatSend" id="vbI-8U-kgJ"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
