@@ -60,9 +60,15 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
--(IBAction)cameraTapped:(id)sender
-{
+-(IBAction)cameraTapped:(id)sender {
+    UIImage *savedImage = [self saveImageMessage];
+        
+    UIActivityViewController *myActiviyController = [[UIActivityViewController alloc] initWithActivityItems:@[savedImage] applicatonActivities:nil]];
+    
+    [self presentViewController animated:YES completion:ni];
+}
 
+{
     UIImagePickerController *myPicker = [[UIImagePickerController alloc]init];
     
     myPicker.delegate = self; // says when you are done comeback to self
