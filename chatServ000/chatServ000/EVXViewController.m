@@ -62,20 +62,17 @@
 }
 -(IBAction)cameraTapped:(id)sender {
     UIImage *savedImage = [self saveImageMessage];
-        
-    UIActivityViewController *myActiviyController = [[UIActivityViewController alloc] initWithActivityItems:@[savedImage] applicatonActivities:nil]];
     
-    [self presentViewController animated:YES completion:ni];
-}
-
-{
+    UIActivityViewController *myActivity = [[UIActivityViewController alloc] initWithActivityItems:@[savedImage] applicationActivities:nil];
+    //UIActivityViewController *myActiviyController = [[UIActivityViewController alloc] initWithActivityItems:@[savedImage] applicatonActivities:nil]];
     UIImagePickerController *myPicker = [[UIImagePickerController alloc]init];
     
     myPicker.delegate = self; // says when you are done comeback to self
     
     [self presentViewController:myPicker animated:YES completion:nil];
-  
+
 }
+
 
 -(void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
 {
