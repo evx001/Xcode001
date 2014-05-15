@@ -13,9 +13,6 @@
 //    NSMutableArray *imageNames;
     // we'll be using properties which will auto generate code.
     NSMutableArray *imageText;
-    // connects view to controller
-    IBOutlet UIImageView *myImageView;
-
 }
 @end
 
@@ -25,9 +22,6 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    // Setter for image
-    [myImageView setImage: [UIImage imageNamed:@"foodPlease"]];
-    
     // imageNames = [[NSMutableArray alloc]init];
     imageText = [[NSMutableArray alloc]init];
 	
@@ -55,13 +49,5 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
--(IBAction)cameraTapped:(id)sender
-{
-
-    UIImagePickerController *myPicker = [[UIImagePickerController alloc]init];
-    [self presentViewController:myPicker animated:YES completion:nil];
-  
-}
-
 @end
-	
+

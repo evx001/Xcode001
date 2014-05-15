@@ -10,12 +10,8 @@
 
 @interface EVXViewController () {
 // this is where "private instance variables would get defined" 
-//    NSMutableArray *imageNames;
-    // we'll be using properties which will auto generate code.
+    NSMutableArray *imageNames;
     NSMutableArray *imageText;
-    // connects view to controller
-    IBOutlet UIImageView *myImageView;
-
 }
 @end
 
@@ -25,27 +21,24 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    // Setter for image
-    [myImageView setImage: [UIImage imageNamed:@"foodPlease"]];
-    
     // imageNames = [[NSMutableArray alloc]init];
     imageText = [[NSMutableArray alloc]init];
 	
     NSMutableArray *newImageNames =[[NSMutableArray alloc]init];
     
     for (int i=0 ; i<10; i++) {
-        [newImageNames addObject:@"Joe"];
+        [NewimageNames addObject:@"Joe"];
         [imageText addObject:@"Joe in Front of the House"];
     }
     
-    self.imageNames = newImageNames;
+    [self setImageNames:newImageNames];
     
 //    NSLog(@"Name: %@, Text: %@",imageNames[0],imageText [0]);
 //    for (NSString *name in imageNames) {
 //        NSLog(@"Name: %@",name);
 //    }
-    for (int i=0; i < [self.imageNames count]; i++)  {
-        NSLog(@"Name: %@, Text: %@", [self imageNames][1], imageText[i]);
+    for (int i=0; i < [[self getImageNames] count]; i++)  {
+        NSLog(@"Name: %@, Text: %@", self getImageNames[1], imageText[i]);
     }
 
 }
@@ -55,13 +48,12 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
--(IBAction)cameraTapped:(id)sender
+-(NSMutableArray *)getImageNames
 {
-
-    UIImagePickerController *myPicker = [[UIImagePickerController alloc]init];
-    [self presentViewController:myPicker animated:YES completion:nil];
-  
+    return imageNames;
 }
-
+-(void)setImageNames:(NSMutableArray *)newImageNames
+{
+    imageNames = newImageNames;
+}
 @end
-	

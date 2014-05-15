@@ -10,9 +10,8 @@
 
 @interface EVXViewController : UIViewController
 // public variables would go here
-// poperties 
+
 @property (strong,nonatomic)NSMutableArray *imageNames;
 
--(IBAction)cameraTapped:(id)sender;
-
 @end
+

@@ -46,7 +46,7 @@
 		60A2B478191C5DA3005438AB /* EVXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVXAppDelegate.m; sourceTree = "<group>"; };
 		60A2B47B191C5DA3005438AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		60A2B47D191C5DA3005438AB /* EVXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVXViewController.h; sourceTree = "<group>"; };
-		60A2B47E191C5DA3005438AB /* EVXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVXViewController.m; sourceTree = "<group>"; };
+		60A2B47E191C5DA3005438AB /* EVXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = EVXViewController.m; path = chatServ000/EVXViewController.m; sourceTree = SOURCE_ROOT; };
 		60A2B480191C5DA3005438AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		60A2B486191C5DA3005438AB /* chatServ000Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chatServ000Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60A2B487191C5DA3005438AB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -457,6 +457,7 @@
 				60A2B499191C5DA3005438AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60A2B49A191C5DA3005438AB /* Build configuration list for PBXNativeTarget "chatServ000Tests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +466,7 @@
 				60A2B49C191C5DA3005438AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
