@@ -25,7 +25,11 @@
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="ChatSend" id="vbI-8U-kgJ">
-                        <barButtonItem key="rightBarButtonItem" systemItem="camera" id="Lr1-WU-7nD"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="camera" id="Lr1-WU-7nD">
+                            <connections>
+                                <action selector="cameraTapped:" destination="vXZ-lx-hvc" id="JBY-Fy-k3I"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>

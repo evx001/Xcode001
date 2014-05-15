@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface EVXViewController : UIViewController
+@interface EVXViewController : UIViewController<UIImagePickerControllerDelegate, UINavigationControllerDelegate> 
 // public variables would go here
 // poperties 
 @property (strong,nonatomic)NSMutableArray *imageNames;

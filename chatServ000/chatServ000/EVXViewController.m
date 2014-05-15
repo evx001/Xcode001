@@ -59,8 +59,18 @@
 {
 
     UIImagePickerController *myPicker = [[UIImagePickerController alloc]init];
+    
+    myPicker.delegate = self; // says when you are done comeback to self
+    
     [self presentViewController:myPicker animated:YES completion:nil];
   
+}
+
+-(void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
+{
+    UIImage *selectedImage = info[UIImagePickerControllerOriginalImage];
+    [myImageView setImage:selectedImage];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end
