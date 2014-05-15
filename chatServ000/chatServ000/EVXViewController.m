@@ -31,7 +31,7 @@
     
     self.navigationItem.rightBarButtonItems = @[cameraButton,shareButton];
     
-    [myImageView setImage: [UIImage imageNamed:@"foodPlease"]];
+    // [myImageView setImage: [UIImage imageNamed:@"foodPlease"]];
     
     // imageNames = [[NSMutableArray alloc]init];
     imageText = [[NSMutableArray alloc]init];
