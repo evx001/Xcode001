@@ -12,7 +12,7 @@
 // public variables would go here
 // poperties 
 @property (strong,nonatomic)NSMutableArray *imageNames;
-
+@property (strong, nonatomic)NSMutableArray *imageText;
 -(IBAction)cameraTapped:(id)sender;
-
+-(IBAction)shareTapped:(id)sender;
 @end

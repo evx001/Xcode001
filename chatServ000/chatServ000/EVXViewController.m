@@ -72,6 +72,19 @@
     [myImageView setImage:selectedImage];
     [self dismissViewControllerAnimated:YES completion:nil];
 }
-
-@end
+-(BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [textField resignFirstResponder];
+    return YES; 
+}
+-(UIImage *)saveImageMessage {
+    UIGraphicsBeginImageContextWithOptions(self.view.bounds.size, self.view.opaque, 0.0);
+    [self.view.layer renderInContext:UIGraphicsGetCurrentContext()];
+    UIImage *imageView =
+    UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    return imageView;
+}
+    @end
 	
