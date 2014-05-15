@@ -39,6 +39,9 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="CatSend" id="vbI-8U-kgJ"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="tapToSend" destination="OSe-cb-0Tu" id="RpE-Ro-Wwp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

@@ -15,6 +15,8 @@
 @property (strong, nonatomic)NSMutableArray *imageText;
 -(IBAction)cameraTapped:(id)sender;
 -(IBAction)shareTapped:(id)sender;
+
 @property (strong, nonatomic)NSMutableArray *savedImage;
+@property (weak, nonatomic) IBOutlet UIButton *tapToSend;
 
 @end
