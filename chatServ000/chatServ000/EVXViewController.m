@@ -17,6 +17,9 @@
     IBOutlet UIImageView *myImageView;
 
 }
+//-(IBAction):(id)sender
+@proptery (strong, nonatomic)
+ IBOutlet UILabel *tapToSend
 @end
 
 @implementation EVXViewController

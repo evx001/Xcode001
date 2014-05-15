@@ -90,11 +90,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "chatServ000/EVXViewController.m"
-            timestampString = "421827192.482333"
+            timestampString = "421885883.024739"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "66"
-            endingLineNumber = "66"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
             landmarkName = "-cameraTapped:"
             landmarkType = "5">
          </BreakpointContent>
