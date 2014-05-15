@@ -26,6 +26,11 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     // Setter for image
+    UIBarButtonItem *cameraButton= [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemCamera target:self action:@selector(cameraTapped:)];
+    UIBarButtonItem *shareButton= [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:@selector(shareTapped:)];
+    
+    self.navigationItem.rightBarButtonItems = @[cameraButton,shareButton];
+    
     [myImageView setImage: [UIImage imageNamed:@"foodPlease"]];
     
     // imageNames = [[NSMutableArray alloc]init];
