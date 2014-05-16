@@ -15,8 +15,10 @@
     NSMutableArray *imageText;
     // connects view to controller
     IBOutlet UIImageView *myImageView;
-
 }
+@property (weak, nonatomic) IBOutlet UIButton *catSendButton;
+@property (weak, nonatomic) IBOutlet UILabel *labelCatSend;
+
 @end
 
 @implementation EVXViewController
@@ -26,7 +28,12 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     // Setter for image
-    [myImageView setImage: [UIImage imageNamed:@"foodPlease"]];
+    UIBarButtonItem *cameraButton= [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemCamera target:self action:@selector(cameraTapped:)];
+    UIBarButtonItem *shareButton= [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:@selector(shareTapped:)];
+    
+    self.navigationItem.rightBarButtonItems = @[cameraButton,shareButton];
+    
+    // [myImageView setImage: [UIImage imageNamed:@"foodPlease"]];
     
     // imageNames = [[NSMutableArray alloc]init];
     imageText = [[NSMutableArray alloc]init];
@@ -55,16 +62,19 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
--(IBAction)cameraTapped:(id)sender
-{
-
+-(IBAction)cameraTapped:(id)sender {
+    UIImage *savedImage = [self saveImageMessage];
+    
+    UIActivityViewController *myActivity = [[UIActivityViewController alloc] initWithActivityItems:@[savedImage] applicationActivities:nil];
+    //UIActivityViewController *myActiviyController = [[UIActivityViewController alloc] initWithActivityItems:@[savedImage] applicatonActivities:nil]];
     UIImagePickerController *myPicker = [[UIImagePickerController alloc]init];
     
     myPicker.delegate = self; // says when you are done comeback to self
     
     [self presentViewController:myPicker animated:YES completion:nil];
-  
+
 }
+
 
 -(void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
 {
@@ -72,6 +82,19 @@
     [myImageView setImage:selectedImage];
     [self dismissViewControllerAnimated:YES completion:nil];
 }
+-(BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [textField resignFirstResponder];
+    return YES; 
+}
+-(UIImage *)saveImageMessage {
+    UIGraphicsBeginImageContextWithOptions(self.view.bounds.size, self.view.opaque, 0.0);
+    [self.view.layer renderInContext:UIGraphicsGetCurrentContext()];
+    UIImage *imageView =
+    UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    return imageView;
+}
+    @end
 
-@end
-	
