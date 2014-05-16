@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		606A82E91926862F006D9E54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 606A82E81926862F006D9E54 /* Foundation.framework */; };
+		606A82EB1926862F006D9E54 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 606A82EA1926862F006D9E54 /* CoreGraphics.framework */; };
+		606A82ED1926862F006D9E54 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 606A82EC1926862F006D9E54 /* UIKit.framework */; };
+		606A82F31926862F006D9E54 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 606A82F11926862F006D9E54 /* InfoPlist.strings */; };
+		606A82F51926862F006D9E54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 606A82F41926862F006D9E54 /* main.m */; };
+		606A82F91926862F006D9E54 /* EVXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 606A82F81926862F006D9E54 /* EVXAppDelegate.m */; };
+		606A82FC1926862F006D9E54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 606A82FA1926862F006D9E54 /* Main.storyboard */; };
+		606A82FF1926862F006D9E54 /* EVXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 606A82FE1926862F006D9E54 /* EVXViewController.m */; };
+		606A83011926862F006D9E54 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 606A83001926862F006D9E54 /* Images.xcassets */; };
+		606A83081926862F006D9E54 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 606A83071926862F006D9E54 /* XCTest.framework */; };
+		606A83091926862F006D9E54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 606A82E81926862F006D9E54 /* Foundation.framework */; };
+		606A830A1926862F006D9E54 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 606A82EC1926862F006D9E54 /* UIKit.framework */; };
+		606A83121926862F006D9E54 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 606A83101926862F006D9E54 /* InfoPlist.strings */; };
+		606A83141926862F006D9E54 /* stanCard001Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 606A83131926862F006D9E54 /* stanCard001Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		606A830B1926862F006D9E54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 606A82DD1926862F006D9E54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 606A82E41926862F006D9E54;
+			remoteInfo = stanCard001;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		606A82E51926862F006D9E54 /* stanCard001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stanCard001.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		606A82E81926862F006D9E54 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		606A82EA1926862F006D9E54 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		606A82EC1926862F006D9E54 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		606A82F01926862F006D9E54 /* stanCard001-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "stanCard001-Info.plist"; sourceTree = "<group>"; };
+		606A82F21926862F006D9E54 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		606A82F41926862F006D9E54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		606A82F61926862F006D9E54 /* stanCard001-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "stanCard001-Prefix.pch"; sourceTree = "<group>"; };
+		606A82F71926862F006D9E54 /* EVXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVXAppDelegate.h; sourceTree = "<group>"; };
+		606A82F81926862F006D9E54 /* EVXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVXAppDelegate.m; sourceTree = "<group>"; };
+		606A82FB1926862F006D9E54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		606A82FD1926862F006D9E54 /* EVXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVXViewController.h; sourceTree = "<group>"; };
+		606A82FE1926862F006D9E54 /* EVXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVXViewController.m; sourceTree = "<group>"; };
+		606A83001926862F006D9E54 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		606A83061926862F006D9E54 /* stanCard001Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stanCard001Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		606A83071926862F006D9E54 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		606A830F1926862F006D9E54 /* stanCard001Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "stanCard001Tests-Info.plist"; sourceTree = "<group>"; };
+		606A83111926862F006D9E54 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		606A83131926862F006D9E54 /* stanCard001Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = stanCard001Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		606A82E21926862F006D9E54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606A82EB1926862F006D9E54 /* CoreGraphics.framework in Frameworks */,
+				606A82ED1926862F006D9E54 /* UIKit.framework in Frameworks */,
+				606A82E91926862F006D9E54 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		606A83031926862F006D9E54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606A83081926862F006D9E54 /* XCTest.framework in Frameworks */,
+				606A830A1926862F006D9E54 /* UIKit.framework in Frameworks */,
+				606A83091926862F006D9E54 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		606A82DC1926862F006D9E54 = {
+			isa = PBXGroup;
+			children = (
+				606A82EE1926862F006D9E54 /* stanCard001 */,
+				606A830D1926862F006D9E54 /* stanCard001Tests */,
+				606A82E71926862F006D9E54 /* Frameworks */,
+				606A82E61926862F006D9E54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		606A82E61926862F006D9E54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				606A82E51926862F006D9E54 /* stanCard001.app */,
+				606A83061926862F006D9E54 /* stanCard001Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		606A82E71926862F006D9E54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				606A82E81926862F006D9E54 /* Foundation.framework */,
+				606A82EA1926862F006D9E54 /* CoreGraphics.framework */,
+				606A82EC1926862F006D9E54 /* UIKit.framework */,
+				606A83071926862F006D9E54 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		606A82EE1926862F006D9E54 /* stanCard001 */ = {
+			isa = PBXGroup;
+			children = (
+				606A82F71926862F006D9E54 /* EVXAppDelegate.h */,
+				606A82F81926862F006D9E54 /* EVXAppDelegate.m */,
+				606A82FA1926862F006D9E54 /* Main.storyboard */,
+				606A82FD1926862F006D9E54 /* EVXViewController.h */,
+				606A82FE1926862F006D9E54 /* EVXViewController.m */,
+				606A83001926862F006D9E54 /* Images.xcassets */,
+				606A82EF1926862F006D9E54 /* Supporting Files */,
+			);
+			path = stanCard001;
+			sourceTree = "<group>";
+		};
+		606A82EF1926862F006D9E54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				606A82F01926862F006D9E54 /* stanCard001-Info.plist */,
+				606A82F11926862F006D9E54 /* InfoPlist.strings */,
+				606A82F41926862F006D9E54 /* main.m */,
+				606A82F61926862F006D9E54 /* stanCard001-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		606A830D1926862F006D9E54 /* stanCard001Tests */ = {
+			isa = PBXGroup;
+			children = (
+				606A83131926862F006D9E54 /* stanCard001Tests.m */,
+				606A830E1926862F006D9E54 /* Supporting Files */,
+			);
+			path = stanCard001Tests;
+			sourceTree = "<group>";
+		};
+		606A830E1926862F006D9E54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				606A830F1926862F006D9E54 /* stanCard001Tests-Info.plist */,
+				606A83101926862F006D9E54 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		606A82E41926862F006D9E54 /* stanCard001 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 606A83171926862F006D9E54 /* Build configuration list for PBXNativeTarget "stanCard001" */;
+			buildPhases = (
+				606A82E11926862F006D9E54 /* Sources */,
+				606A82E21926862F006D9E54 /* Frameworks */,
+				606A82E31926862F006D9E54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = stanCard001;
+			productName = stanCard001;
+			productReference = 606A82E51926862F006D9E54 /* stanCard001.app */;
+			productType = "com.apple.product-type.application";
+		};
+		606A83051926862F006D9E54 /* stanCard001Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 606A831A1926862F006D9E54 /* Build configuration list for PBXNativeTarget "stanCard001Tests" */;
+			buildPhases = (
+				606A83021926862F006D9E54 /* Sources */,
+				606A83031926862F006D9E54 /* Frameworks */,
+				606A83041926862F006D9E54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				606A830C1926862F006D9E54 /* PBXTargetDependency */,
+			);
+			name = stanCard001Tests;
+			productName = stanCard001Tests;
+			productReference = 606A83061926862F006D9E54 /* stanCard001Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		606A82DD1926862F006D9E54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EVX;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = evxyz001;
+				TargetAttributes = {
+					606A83051926862F006D9E54 = {
+						TestTargetID = 606A82E41926862F006D9E54;
+					};
+				};
+			};
+			buildConfigurationList = 606A82E01926862F006D9E54 /* Build configuration list for PBXProject "stanCard001" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 606A82DC1926862F006D9E54;
+			productRefGroup = 606A82E61926862F006D9E54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				606A82E41926862F006D9E54 /* stanCard001 */,
+				606A83051926862F006D9E54 /* stanCard001Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		606A82E31926862F006D9E54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606A83011926862F006D9E54 /* Images.xcassets in Resources */,
+				606A82F31926862F006D9E54 /* InfoPlist.strings in Resources */,
+				606A82FC1926862F006D9E54 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		606A83041926862F006D9E54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606A83121926862F006D9E54 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		606A82E11926862F006D9E54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606A82F91926862F006D9E54 /* EVXAppDelegate.m in Sources */,
+				606A82FF1926862F006D9E54 /* EVXViewController.m in Sources */,
+				606A82F51926862F006D9E54 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		606A83021926862F006D9E54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606A83141926862F006D9E54 /* stanCard001Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		606A830C1926862F006D9E54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 606A82E41926862F006D9E54 /* stanCard001 */;
+			targetProxy = 606A830B1926862F006D9E54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		606A82F11926862F006D9E54 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				606A82F21926862F006D9E54 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		606A82FA1926862F006D9E54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				606A82FB1926862F006D9E54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		606A83101926862F006D9E54 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				606A83111926862F006D9E54 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		606A83151926862F006D9E54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		606A83161926862F006D9E54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		606A83181926862F006D9E54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "stanCard001/stanCard001-Prefix.pch";
+				INFOPLIST_FILE = "stanCard001/stanCard001-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		606A83191926862F006D9E54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "stanCard001/stanCard001-Prefix.pch";
+				INFOPLIST_FILE = "stanCard001/stanCard001-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		606A831B1926862F006D9E54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/stanCard001.app/stanCard001";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "stanCard001/stanCard001-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "stanCard001Tests/stanCard001Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		606A831C1926862F006D9E54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/stanCard001.app/stanCard001";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "stanCard001/stanCard001-Prefix.pch";
+				INFOPLIST_FILE = "stanCard001Tests/stanCard001Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		606A82E01926862F006D9E54 /* Build configuration list for PBXProject "stanCard001" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				606A83151926862F006D9E54 /* Debug */,
+				606A83161926862F006D9E54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		606A83171926862F006D9E54 /* Build configuration list for PBXNativeTarget "stanCard001" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				606A83181926862F006D9E54 /* Debug */,
+				606A83191926862F006D9E54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		606A831A1926862F006D9E54 /* Build configuration list for PBXNativeTarget "stanCard001Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				606A831B1926862F006D9E54 /* Debug */,
+				606A831C1926862F006D9E54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 606A82DD1926862F006D9E54 /* Project object */;
+}
