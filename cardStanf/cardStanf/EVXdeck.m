@@ -18,7 +18,9 @@
 -(NSMutableArray *)cards
 {   // nice!! while we are getting we can check for nil // if nil we make NSMutableArray space on the heap
     if (!_cards) _cards = [[NSMutableArray alloc] init];
+    // now everytime we call self.cards we can be sure to get a NSMutableArray
     return _cards;
+    
 }
 - (void)addCard:(Card *)card atTop:(BOOL)atTop; {
 
