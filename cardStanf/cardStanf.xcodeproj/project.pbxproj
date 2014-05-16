@@ -20,6 +20,7 @@
 		60C768AA192619FA0009D1C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60C768A8192619FA0009D1C5 /* InfoPlist.strings */; };
 		60C768AC192619FA0009D1C5 /* cardStanfTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C768AB192619FA0009D1C5 /* cardStanfTests.m */; };
 		60C768B819261C620009D1C5 /* EVXCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C768B719261C620009D1C5 /* EVXCard.m */; };
+		60CA11941926AC4800B06135 /* EVXdeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CA11931926AC4800B06135 /* EVXdeck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		60C768AB192619FA0009D1C5 /* cardStanfTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cardStanfTests.m; sourceTree = "<group>"; };
 		60C768B519261C330009D1C5 /* EVXCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVXCard.h; sourceTree = "<group>"; };
 		60C768B719261C620009D1C5 /* EVXCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVXCard.m; sourceTree = "<group>"; };
+		60CA11921926AC4800B06135 /* EVXdeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVXdeck.h; sourceTree = "<group>"; };
+		60CA11931926AC4800B06135 /* EVXdeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVXdeck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 				60C76896192619FA0009D1C5 /* EVXAppDelegate.m */,
 				60C768B519261C330009D1C5 /* EVXCard.h */,
 				60C768B719261C620009D1C5 /* EVXCard.m */,
+				60CA11921926AC4800B06135 /* EVXdeck.h */,
+				60CA11931926AC4800B06135 /* EVXdeck.m */,
 				60C76898192619FA0009D1C5 /* Images.xcassets */,
 				60C7688D192619FA0009D1C5 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			files = (
 				60C76897192619FA0009D1C5 /* EVXAppDelegate.m in Sources */,
 				60C768B819261C620009D1C5 /* EVXCard.m in Sources */,
+				60CA11941926AC4800B06135 /* EVXdeck.m in Sources */,
 				60C76893192619FA0009D1C5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
