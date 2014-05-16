@@ -9,10 +9,16 @@
 #import "EVXdeck.h"
 
 @interface EVXdeck () // because it connects back to header?
+
 @property (strong, nonatomic) NSMutableArray *cards;// strong because we want it to stay in the heap as long as there are pointers for it.
+
 @end
 
 @implementation EVXdeck
+-(NSMutableArray *)cards
+{
+    return _cards;
+}
 - (void)addCard:(Card *)card atTop:(BOOL)atTop; {
 
     if (atTop) {
