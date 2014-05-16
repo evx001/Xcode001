@@ -15,8 +15,10 @@
     NSMutableArray *imageText;
     // connects view to controller
     IBOutlet UIImageView *myImageView;
-
 }
+@property (weak, nonatomic) IBOutlet UIButton *catSendButton;
+@property (weak, nonatomic) IBOutlet UILabel *labelCatSend;
+
 @end
 
 @implementation EVXViewController
@@ -95,4 +97,4 @@
     return imageView;
 }
     @end
-	
+
