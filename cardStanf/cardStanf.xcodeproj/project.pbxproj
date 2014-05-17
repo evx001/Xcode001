@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		60145CD01927F78D00C73C10 /* PlayingCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
 		60C76883192619FA0009D1C5 /* cardStanf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cardStanf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60C76886192619FA0009D1C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		60C76888192619FA0009D1C5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -121,6 +122,7 @@
 				60CA11931926AC4800B06135 /* EVXdeck.m */,
 				60C76898192619FA0009D1C5 /* Images.xcassets */,
 				60C7688D192619FA0009D1C5 /* Supporting Files */,
+				60145CD01927F78D00C73C10 /* PlayingCard.h */,
 			);
 			path = cardStanf;
 			sourceTree = "<group>";
