@@ -1,5 +1,5 @@
 //
-//  EVXcard.h
+//  Card.h
 //  cardStanf
 //
 //  Created by evx on 5/16/14.

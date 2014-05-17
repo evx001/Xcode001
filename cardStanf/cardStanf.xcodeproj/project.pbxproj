@@ -12,15 +12,16 @@
 		60C7688B192619FA0009D1C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C7688A192619FA0009D1C5 /* UIKit.framework */; };
 		60C76891192619FA0009D1C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60C7688F192619FA0009D1C5 /* InfoPlist.strings */; };
 		60C76893192619FA0009D1C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C76892192619FA0009D1C5 /* main.m */; };
-		60C76897192619FA0009D1C5 /* EVXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C76896192619FA0009D1C5 /* EVXAppDelegate.m */; };
+		60C76897192619FA0009D1C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C76896192619FA0009D1C5 /* AppDelegate.m */; };
 		60C76899192619FA0009D1C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60C76898192619FA0009D1C5 /* Images.xcassets */; };
 		60C768A0192619FA0009D1C5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C7689F192619FA0009D1C5 /* XCTest.framework */; };
 		60C768A1192619FA0009D1C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C76886192619FA0009D1C5 /* Foundation.framework */; };
 		60C768A2192619FA0009D1C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C7688A192619FA0009D1C5 /* UIKit.framework */; };
 		60C768AA192619FA0009D1C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60C768A8192619FA0009D1C5 /* InfoPlist.strings */; };
 		60C768AC192619FA0009D1C5 /* cardStanfTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C768AB192619FA0009D1C5 /* cardStanfTests.m */; };
-		60C768B819261C620009D1C5 /* EVXCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C768B719261C620009D1C5 /* EVXCard.m */; };
-		60CA11941926AC4800B06135 /* EVXdeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CA11931926AC4800B06135 /* EVXdeck.m */; };
+		60C768B819261C620009D1C5 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C768B719261C620009D1C5 /* Card.m */; };
+		60CA11941926AC4800B06135 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CA11931926AC4800B06135 /* Deck.m */; };
+		60F296B219280D97008CF748 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F296B119280D97008CF748 /* PlayingCard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		60145CD01927F78D00C73C10 /* PlayingCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
 		60C76883192619FA0009D1C5 /* cardStanf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cardStanf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60C76886192619FA0009D1C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		60C76888192619FA0009D1C5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -43,18 +43,20 @@
 		60C76890192619FA0009D1C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		60C76892192619FA0009D1C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		60C76894192619FA0009D1C5 /* cardStanf-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cardStanf-Prefix.pch"; sourceTree = "<group>"; };
-		60C76895192619FA0009D1C5 /* EVXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVXAppDelegate.h; sourceTree = "<group>"; };
-		60C76896192619FA0009D1C5 /* EVXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVXAppDelegate.m; sourceTree = "<group>"; };
+		60C76895192619FA0009D1C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60C76896192619FA0009D1C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		60C76898192619FA0009D1C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		60C7689E192619FA0009D1C5 /* cardStanfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cardStanfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60C7689F192619FA0009D1C5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		60C768A7192619FA0009D1C5 /* cardStanfTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cardStanfTests-Info.plist"; sourceTree = "<group>"; };
 		60C768A9192619FA0009D1C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		60C768AB192619FA0009D1C5 /* cardStanfTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cardStanfTests.m; sourceTree = "<group>"; };
-		60C768B519261C330009D1C5 /* EVXCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVXCard.h; sourceTree = "<group>"; };
-		60C768B719261C620009D1C5 /* EVXCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVXCard.m; sourceTree = "<group>"; };
-		60CA11921926AC4800B06135 /* EVXdeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVXdeck.h; sourceTree = "<group>"; };
-		60CA11931926AC4800B06135 /* EVXdeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVXdeck.m; sourceTree = "<group>"; };
+		60C768B519261C330009D1C5 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		60C768B719261C620009D1C5 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		60CA11921926AC4800B06135 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		60CA11931926AC4800B06135 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		60F296B019280D50008CF748 /* PlayingCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		60F296B119280D97008CF748 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,15 +116,16 @@
 		60C7688C192619FA0009D1C5 /* cardStanf */ = {
 			isa = PBXGroup;
 			children = (
-				60C76895192619FA0009D1C5 /* EVXAppDelegate.h */,
-				60C76896192619FA0009D1C5 /* EVXAppDelegate.m */,
-				60C768B519261C330009D1C5 /* EVXCard.h */,
-				60C768B719261C620009D1C5 /* EVXCard.m */,
-				60CA11921926AC4800B06135 /* EVXdeck.h */,
-				60CA11931926AC4800B06135 /* EVXdeck.m */,
+				60C76895192619FA0009D1C5 /* AppDelegate.h */,
+				60C76896192619FA0009D1C5 /* AppDelegate.m */,
+				60C768B519261C330009D1C5 /* Card.h */,
+				60C768B719261C620009D1C5 /* Card.m */,
+				60F296B019280D50008CF748 /* PlayingCard.h */,
+				60F296B119280D97008CF748 /* PlayingCard.m */,
+				60CA11921926AC4800B06135 /* Deck.h */,
+				60CA11931926AC4800B06135 /* Deck.m */,
 				60C76898192619FA0009D1C5 /* Images.xcassets */,
 				60C7688D192619FA0009D1C5 /* Supporting Files */,
-				60145CD01927F78D00C73C10 /* PlayingCard.h */,
 			);
 			path = cardStanf;
 			sourceTree = "<group>";
@@ -255,9 +258,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60C76897192619FA0009D1C5 /* EVXAppDelegate.m in Sources */,
-				60C768B819261C620009D1C5 /* EVXCard.m in Sources */,
-				60CA11941926AC4800B06135 /* EVXdeck.m in Sources */,
+				60C76897192619FA0009D1C5 /* AppDelegate.m in Sources */,
+				60C768B819261C620009D1C5 /* Card.m in Sources */,
+				60CA11941926AC4800B06135 /* Deck.m in Sources */,
+				60F296B219280D97008CF748 /* PlayingCard.m in Sources */,
 				60C76893192619FA0009D1C5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

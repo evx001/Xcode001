@@ -1,14 +1,14 @@
 //
-//  EVXAppDelegate.m
+//  AppDelegate.m
 //  cardStanf
 //
 //  Created by evx on 5/16/14.
 //  Copyright (c) 2014 evxyz001. All rights reserved.
 //
 
-#import "EVXAppDelegate.h"
+#import "AppDelegate.h"
 
-@implementation EVXAppDelegate
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
