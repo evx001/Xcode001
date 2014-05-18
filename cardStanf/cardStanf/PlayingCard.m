@@ -24,10 +24,11 @@
          _suit = suit;
     }
 }
+//
+//- (NSString *)suit
+//{
+//    return _suit ? _suit : @"?";
+//}
 
-- (NSString *)suit
-{
-    return _suit ? _suit : @"?";
-}
 
 @end
