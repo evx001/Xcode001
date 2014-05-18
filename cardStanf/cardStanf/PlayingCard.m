@@ -16,7 +16,8 @@
     return [rankStrings[self.rank] stringByAppendingString:self.suit];
 }
 
-// --------------------------------------
+
+@synthesize suit = _suit; // because we provide getter and setter
 
 -(void)setSuit:(NSString *)suit
 {
@@ -24,11 +25,11 @@
          _suit = suit;
     }
 }
-//
-//- (NSString *)suit
-//{
-//    return _suit ? _suit : @"?";
-//}
+
+- (NSString *)suit
+{
+    return _suit ? _suit : @"?";
+}
 
 
 @end
