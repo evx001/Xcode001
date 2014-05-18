@@ -1,14 +1,15 @@
 //
-//  EVXdeck.h
+//  Deck.h
 //  cardStanf
 //
 //  Created by evx on 5/16/14.
 //  Copyright (c) 2014 evxyz001. All rights reserved.
 //
 
+#import "Card.h"
 #import <Foundation/Foundation.h>
 
-@interface EVXdeck : NSObject
+@interface Deck : NSObject
 
 - (void)addCard:(Card *)card atTop:(BOOL)atTop; // note two args & the name is addCard_atTop
 - (void)addCard:(Card *)card; // this makes addCard have options to either add a card or add a card at the top of the deck.

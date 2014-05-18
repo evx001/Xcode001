@@ -1,5 +1,5 @@
 //
-//  EVXAppDelegate.h
+//  AppDelegate.h
 //  cardStanf
 //
 //  Created by evx on 5/16/14.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface EVXAppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
