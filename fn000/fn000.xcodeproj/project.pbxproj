@@ -1,0 +1,74 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		60FCF445192B3CC4002D2080 /* myClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myClass.h; sourceTree = "<group>"; };
+		60FCF446192B3CC4002D2080 /* myClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myClass.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		60FCF43E192B3C02002D2080 = {
+			isa = PBXGroup;
+			children = (
+				60FCF445192B3CC4002D2080 /* myClass.h */,
+				60FCF446192B3CC4002D2080 /* myClass.m */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		60FCF43F192B3C02002D2080 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 60FCF442192B3C02002D2080 /* Build configuration list for PBXProject "fN000" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 60FCF43E192B3C02002D2080;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		60FCF443192B3C02002D2080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		60FCF444192B3C02002D2080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60FCF442192B3C02002D2080 /* Build configuration list for PBXProject "fN000" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60FCF443192B3C02002D2080 /* Debug */,
+				60FCF444192B3C02002D2080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60FCF43F192B3C02002D2080 /* Project object */;
+}
