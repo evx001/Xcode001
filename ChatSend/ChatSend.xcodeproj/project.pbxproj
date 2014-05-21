@@ -21,6 +21,7 @@
 		605929E5192C0B15006EB15C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605929C7192C0B14006EB15C /* UIKit.framework */; };
 		605929ED192C0B15006EB15C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 605929EB192C0B15006EB15C /* InfoPlist.strings */; };
 		605929EF192C0B15006EB15C /* chAtsEndTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 605929EE192C0B15006EB15C /* chAtsEndTests.m */; };
+		60FEB6FA192C56140074F735 /* EVXMasterViewControllerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FEB6F9192C56140074F735 /* EVXMasterViewControllerTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		605929EA192C0B15006EB15C /* chAtsEndTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "chAtsEndTests-Info.plist"; sourceTree = "<group>"; };
 		605929EC192C0B15006EB15C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		605929EE192C0B15006EB15C /* chAtsEndTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chAtsEndTests.m; sourceTree = "<group>"; };
+		60FEB6F8192C56140074F735 /* EVXMasterViewControllerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EVXMasterViewControllerTableViewController.h; path = ../EVXMasterViewControllerTableViewController.h; sourceTree = "<group>"; };
+		60FEB6F9192C56140074F735 /* EVXMasterViewControllerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EVXMasterViewControllerTableViewController.m; path = ../EVXMasterViewControllerTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				605929D2192C0B14006EB15C /* EVXAppDelegate.h */,
 				605929D3192C0B14006EB15C /* EVXAppDelegate.m */,
 				605929D5192C0B14006EB15C /* Main.storyboard */,
+				60FEB6F8192C56140074F735 /* EVXMasterViewControllerTableViewController.h */,
+				60FEB6F9192C56140074F735 /* EVXMasterViewControllerTableViewController.m */,
 				605929D8192C0B14006EB15C /* EVXViewController.h */,
 				605929D9192C0B14006EB15C /* EVXViewController.m */,
 				605929DB192C0B14006EB15C /* Images.xcassets */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60FEB6FA192C56140074F735 /* EVXMasterViewControllerTableViewController.m in Sources */,
 				605929D4192C0B14006EB15C /* EVXAppDelegate.m in Sources */,
 				605929DA192C0B14006EB15C /* EVXViewController.m in Sources */,
 				605929D0192C0B14006EB15C /* main.m in Sources */,
@@ -457,6 +463,7 @@
 				605929F4192C0B15006EB15C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		605929F5192C0B15006EB15C /* Build configuration list for PBXNativeTarget "chAtsEndTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				605929F7192C0B15006EB15C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
