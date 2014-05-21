@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>ChatSend.xcscheme</key>
+		<key>chAtsEnd.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>6038E44619120E760072DEDB</key>
+		<key>605929BF192C0B14006EB15C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6038E46719120E760072DEDB</key>
+		<key>605929E0192C0B14006EB15C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

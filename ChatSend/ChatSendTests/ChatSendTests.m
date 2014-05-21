@@ -1,18 +1,18 @@
 //
-//  ChatSendTests.m
-//  ChatSendTests
+//  chAtsEndTests.m
+//  chAtsEndTests
 //
-//  Created by evx on 5/1/14.
+//  Created by evx on 5/20/14.
 //  Copyright (c) 2014 evxyz001. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface ChatSendTests : XCTestCase
+@interface chAtsEndTests : XCTestCase
 
 @end
 
-@implementation ChatSendTests
+@implementation chAtsEndTests
 
 - (void)setUp
 {

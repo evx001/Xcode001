@@ -7,147 +7,147 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6038E44B19120E760072DEDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6038E44A19120E760072DEDB /* Foundation.framework */; };
-		6038E44D19120E760072DEDB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6038E44C19120E760072DEDB /* CoreGraphics.framework */; };
-		6038E44F19120E760072DEDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6038E44E19120E760072DEDB /* UIKit.framework */; };
-		6038E45519120E760072DEDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6038E45319120E760072DEDB /* InfoPlist.strings */; };
-		6038E45719120E760072DEDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6038E45619120E760072DEDB /* main.m */; };
-		6038E45B19120E760072DEDB /* EVXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6038E45A19120E760072DEDB /* EVXAppDelegate.m */; };
-		6038E45E19120E760072DEDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6038E45C19120E760072DEDB /* Main.storyboard */; };
-		6038E46119120E760072DEDB /* EVXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6038E46019120E760072DEDB /* EVXViewController.m */; };
-		6038E46319120E760072DEDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6038E46219120E760072DEDB /* Images.xcassets */; };
-		6038E46A19120E760072DEDB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6038E46919120E760072DEDB /* XCTest.framework */; };
-		6038E46B19120E760072DEDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6038E44A19120E760072DEDB /* Foundation.framework */; };
-		6038E46C19120E760072DEDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6038E44E19120E760072DEDB /* UIKit.framework */; };
-		6038E47419120E760072DEDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6038E47219120E760072DEDB /* InfoPlist.strings */; };
-		6038E47619120E760072DEDB /* ChatSendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6038E47519120E760072DEDB /* ChatSendTests.m */; };
+		605929C4192C0B14006EB15C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605929C3192C0B14006EB15C /* Foundation.framework */; };
+		605929C6192C0B14006EB15C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605929C5192C0B14006EB15C /* CoreGraphics.framework */; };
+		605929C8192C0B14006EB15C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605929C7192C0B14006EB15C /* UIKit.framework */; };
+		605929CE192C0B14006EB15C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 605929CC192C0B14006EB15C /* InfoPlist.strings */; };
+		605929D0192C0B14006EB15C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 605929CF192C0B14006EB15C /* main.m */; };
+		605929D4192C0B14006EB15C /* EVXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 605929D3192C0B14006EB15C /* EVXAppDelegate.m */; };
+		605929D7192C0B14006EB15C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605929D5192C0B14006EB15C /* Main.storyboard */; };
+		605929DA192C0B14006EB15C /* EVXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 605929D9192C0B14006EB15C /* EVXViewController.m */; };
+		605929DC192C0B14006EB15C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 605929DB192C0B14006EB15C /* Images.xcassets */; };
+		605929E3192C0B15006EB15C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605929E2192C0B14006EB15C /* XCTest.framework */; };
+		605929E4192C0B15006EB15C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605929C3192C0B14006EB15C /* Foundation.framework */; };
+		605929E5192C0B15006EB15C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605929C7192C0B14006EB15C /* UIKit.framework */; };
+		605929ED192C0B15006EB15C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 605929EB192C0B15006EB15C /* InfoPlist.strings */; };
+		605929EF192C0B15006EB15C /* chAtsEndTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 605929EE192C0B15006EB15C /* chAtsEndTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6038E46D19120E760072DEDB /* PBXContainerItemProxy */ = {
+		605929E6192C0B15006EB15C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6038E43F19120E760072DEDB /* Project object */;
+			containerPortal = 605929B8192C0B14006EB15C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6038E44619120E760072DEDB;
-			remoteInfo = ChatSend;
+			remoteGlobalIDString = 605929BF192C0B14006EB15C;
+			remoteInfo = chAtsEnd;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6038E44719120E760072DEDB /* ChatSend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatSend.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6038E44A19120E760072DEDB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		6038E44C19120E760072DEDB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6038E44E19120E760072DEDB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6038E45219120E760072DEDB /* ChatSend-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChatSend-Info.plist"; sourceTree = "<group>"; };
-		6038E45419120E760072DEDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6038E45619120E760072DEDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6038E45819120E760072DEDB /* ChatSend-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChatSend-Prefix.pch"; sourceTree = "<group>"; };
-		6038E45919120E760072DEDB /* EVXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVXAppDelegate.h; sourceTree = "<group>"; };
-		6038E45A19120E760072DEDB /* EVXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVXAppDelegate.m; sourceTree = "<group>"; };
-		6038E45D19120E760072DEDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6038E45F19120E760072DEDB /* EVXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVXViewController.h; sourceTree = "<group>"; };
-		6038E46019120E760072DEDB /* EVXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVXViewController.m; sourceTree = "<group>"; };
-		6038E46219120E760072DEDB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6038E46819120E760072DEDB /* ChatSendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatSendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6038E46919120E760072DEDB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6038E47119120E760072DEDB /* ChatSendTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChatSendTests-Info.plist"; sourceTree = "<group>"; };
-		6038E47319120E760072DEDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6038E47519120E760072DEDB /* ChatSendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatSendTests.m; sourceTree = "<group>"; };
+		605929C0192C0B14006EB15C /* chAtsEnd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chAtsEnd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		605929C3192C0B14006EB15C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		605929C5192C0B14006EB15C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		605929C7192C0B14006EB15C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		605929CB192C0B14006EB15C /* chAtsEnd-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "chAtsEnd-Info.plist"; sourceTree = "<group>"; };
+		605929CD192C0B14006EB15C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		605929CF192C0B14006EB15C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		605929D1192C0B14006EB15C /* chAtsEnd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "chAtsEnd-Prefix.pch"; sourceTree = "<group>"; };
+		605929D2192C0B14006EB15C /* EVXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVXAppDelegate.h; sourceTree = "<group>"; };
+		605929D3192C0B14006EB15C /* EVXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVXAppDelegate.m; sourceTree = "<group>"; };
+		605929D6192C0B14006EB15C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		605929D8192C0B14006EB15C /* EVXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVXViewController.h; sourceTree = "<group>"; };
+		605929D9192C0B14006EB15C /* EVXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVXViewController.m; sourceTree = "<group>"; };
+		605929DB192C0B14006EB15C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		605929E1192C0B14006EB15C /* chAtsEndTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chAtsEndTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		605929E2192C0B14006EB15C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		605929EA192C0B15006EB15C /* chAtsEndTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "chAtsEndTests-Info.plist"; sourceTree = "<group>"; };
+		605929EC192C0B15006EB15C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		605929EE192C0B15006EB15C /* chAtsEndTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chAtsEndTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6038E44419120E760072DEDB /* Frameworks */ = {
+		605929BD192C0B14006EB15C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6038E44D19120E760072DEDB /* CoreGraphics.framework in Frameworks */,
-				6038E44F19120E760072DEDB /* UIKit.framework in Frameworks */,
-				6038E44B19120E760072DEDB /* Foundation.framework in Frameworks */,
+				605929C6192C0B14006EB15C /* CoreGraphics.framework in Frameworks */,
+				605929C8192C0B14006EB15C /* UIKit.framework in Frameworks */,
+				605929C4192C0B14006EB15C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6038E46519120E760072DEDB /* Frameworks */ = {
+		605929DE192C0B14006EB15C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6038E46A19120E760072DEDB /* XCTest.framework in Frameworks */,
-				6038E46C19120E760072DEDB /* UIKit.framework in Frameworks */,
-				6038E46B19120E760072DEDB /* Foundation.framework in Frameworks */,
+				605929E3192C0B15006EB15C /* XCTest.framework in Frameworks */,
+				605929E5192C0B15006EB15C /* UIKit.framework in Frameworks */,
+				605929E4192C0B15006EB15C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6038E43E19120E760072DEDB = {
+		605929B7192C0B14006EB15C = {
 			isa = PBXGroup;
 			children = (
-				6038E45019120E760072DEDB /* ChatSend */,
-				6038E46F19120E760072DEDB /* ChatSendTests */,
-				6038E44919120E760072DEDB /* Frameworks */,
-				6038E44819120E760072DEDB /* Products */,
+				605929C9192C0B14006EB15C /* chAtsEnd */,
+				605929E8192C0B15006EB15C /* chAtsEndTests */,
+				605929C2192C0B14006EB15C /* Frameworks */,
+				605929C1192C0B14006EB15C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6038E44819120E760072DEDB /* Products */ = {
+		605929C1192C0B14006EB15C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6038E44719120E760072DEDB /* ChatSend.app */,
-				6038E46819120E760072DEDB /* ChatSendTests.xctest */,
+				605929C0192C0B14006EB15C /* chAtsEnd.app */,
+				605929E1192C0B14006EB15C /* chAtsEndTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6038E44919120E760072DEDB /* Frameworks */ = {
+		605929C2192C0B14006EB15C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6038E44A19120E760072DEDB /* Foundation.framework */,
-				6038E44C19120E760072DEDB /* CoreGraphics.framework */,
-				6038E44E19120E760072DEDB /* UIKit.framework */,
-				6038E46919120E760072DEDB /* XCTest.framework */,
+				605929C3192C0B14006EB15C /* Foundation.framework */,
+				605929C5192C0B14006EB15C /* CoreGraphics.framework */,
+				605929C7192C0B14006EB15C /* UIKit.framework */,
+				605929E2192C0B14006EB15C /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6038E45019120E760072DEDB /* ChatSend */ = {
+		605929C9192C0B14006EB15C /* chAtsEnd */ = {
 			isa = PBXGroup;
 			children = (
-				6038E45919120E760072DEDB /* EVXAppDelegate.h */,
-				6038E45A19120E760072DEDB /* EVXAppDelegate.m */,
-				6038E45C19120E760072DEDB /* Main.storyboard */,
-				6038E45F19120E760072DEDB /* EVXViewController.h */,
-				6038E46019120E760072DEDB /* EVXViewController.m */,
-				6038E46219120E760072DEDB /* Images.xcassets */,
-				6038E45119120E760072DEDB /* Supporting Files */,
+				605929D2192C0B14006EB15C /* EVXAppDelegate.h */,
+				605929D3192C0B14006EB15C /* EVXAppDelegate.m */,
+				605929D5192C0B14006EB15C /* Main.storyboard */,
+				605929D8192C0B14006EB15C /* EVXViewController.h */,
+				605929D9192C0B14006EB15C /* EVXViewController.m */,
+				605929DB192C0B14006EB15C /* Images.xcassets */,
+				605929CA192C0B14006EB15C /* Supporting Files */,
 			);
-			path = ChatSend;
+			path = chAtsEnd;
 			sourceTree = "<group>";
 		};
-		6038E45119120E760072DEDB /* Supporting Files */ = {
+		605929CA192C0B14006EB15C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6038E45219120E760072DEDB /* ChatSend-Info.plist */,
-				6038E45319120E760072DEDB /* InfoPlist.strings */,
-				6038E45619120E760072DEDB /* main.m */,
-				6038E45819120E760072DEDB /* ChatSend-Prefix.pch */,
+				605929CB192C0B14006EB15C /* chAtsEnd-Info.plist */,
+				605929CC192C0B14006EB15C /* InfoPlist.strings */,
+				605929CF192C0B14006EB15C /* main.m */,
+				605929D1192C0B14006EB15C /* chAtsEnd-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6038E46F19120E760072DEDB /* ChatSendTests */ = {
+		605929E8192C0B15006EB15C /* chAtsEndTests */ = {
 			isa = PBXGroup;
 			children = (
-				6038E47519120E760072DEDB /* ChatSendTests.m */,
-				6038E47019120E760072DEDB /* Supporting Files */,
+				605929EE192C0B15006EB15C /* chAtsEndTests.m */,
+				605929E9192C0B15006EB15C /* Supporting Files */,
 			);
-			path = ChatSendTests;
+			path = chAtsEndTests;
 			sourceTree = "<group>";
 		};
-		6038E47019120E760072DEDB /* Supporting Files */ = {
+		605929E9192C0B15006EB15C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6038E47119120E760072DEDB /* ChatSendTests-Info.plist */,
-				6038E47219120E760072DEDB /* InfoPlist.strings */,
+				605929EA192C0B15006EB15C /* chAtsEndTests-Info.plist */,
+				605929EB192C0B15006EB15C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -155,57 +155,57 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6038E44619120E760072DEDB /* ChatSend */ = {
+		605929BF192C0B14006EB15C /* chAtsEnd */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6038E47919120E760072DEDB /* Build configuration list for PBXNativeTarget "ChatSend" */;
+			buildConfigurationList = 605929F2192C0B15006EB15C /* Build configuration list for PBXNativeTarget "chAtsEnd" */;
 			buildPhases = (
-				6038E44319120E760072DEDB /* Sources */,
-				6038E44419120E760072DEDB /* Frameworks */,
-				6038E44519120E760072DEDB /* Resources */,
+				605929BC192C0B14006EB15C /* Sources */,
+				605929BD192C0B14006EB15C /* Frameworks */,
+				605929BE192C0B14006EB15C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ChatSend;
-			productName = ChatSend;
-			productReference = 6038E44719120E760072DEDB /* ChatSend.app */;
+			name = chAtsEnd;
+			productName = chAtsEnd;
+			productReference = 605929C0192C0B14006EB15C /* chAtsEnd.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6038E46719120E760072DEDB /* ChatSendTests */ = {
+		605929E0192C0B14006EB15C /* chAtsEndTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6038E47C19120E760072DEDB /* Build configuration list for PBXNativeTarget "ChatSendTests" */;
+			buildConfigurationList = 605929F5192C0B15006EB15C /* Build configuration list for PBXNativeTarget "chAtsEndTests" */;
 			buildPhases = (
-				6038E46419120E760072DEDB /* Sources */,
-				6038E46519120E760072DEDB /* Frameworks */,
-				6038E46619120E760072DEDB /* Resources */,
+				605929DD192C0B14006EB15C /* Sources */,
+				605929DE192C0B14006EB15C /* Frameworks */,
+				605929DF192C0B14006EB15C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6038E46E19120E760072DEDB /* PBXTargetDependency */,
+				605929E7192C0B15006EB15C /* PBXTargetDependency */,
 			);
-			name = ChatSendTests;
-			productName = ChatSendTests;
-			productReference = 6038E46819120E760072DEDB /* ChatSendTests.xctest */;
+			name = chAtsEndTests;
+			productName = chAtsEndTests;
+			productReference = 605929E1192C0B14006EB15C /* chAtsEndTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6038E43F19120E760072DEDB /* Project object */ = {
+		605929B8192C0B14006EB15C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = EVX;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = evxyz001;
 				TargetAttributes = {
-					6038E46719120E760072DEDB = {
-						TestTargetID = 6038E44619120E760072DEDB;
+					605929E0192C0B14006EB15C = {
+						TestTargetID = 605929BF192C0B14006EB15C;
 					};
 				};
 			};
-			buildConfigurationList = 6038E44219120E760072DEDB /* Build configuration list for PBXProject "ChatSend" */;
+			buildConfigurationList = 605929BB192C0B14006EB15C /* Build configuration list for PBXProject "chAtsEnd" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -213,88 +213,88 @@
 				en,
 				Base,
 			);
-			mainGroup = 6038E43E19120E760072DEDB;
-			productRefGroup = 6038E44819120E760072DEDB /* Products */;
+			mainGroup = 605929B7192C0B14006EB15C;
+			productRefGroup = 605929C1192C0B14006EB15C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6038E44619120E760072DEDB /* ChatSend */,
-				6038E46719120E760072DEDB /* ChatSendTests */,
+				605929BF192C0B14006EB15C /* chAtsEnd */,
+				605929E0192C0B14006EB15C /* chAtsEndTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6038E44519120E760072DEDB /* Resources */ = {
+		605929BE192C0B14006EB15C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6038E46319120E760072DEDB /* Images.xcassets in Resources */,
-				6038E45519120E760072DEDB /* InfoPlist.strings in Resources */,
-				6038E45E19120E760072DEDB /* Main.storyboard in Resources */,
+				605929DC192C0B14006EB15C /* Images.xcassets in Resources */,
+				605929CE192C0B14006EB15C /* InfoPlist.strings in Resources */,
+				605929D7192C0B14006EB15C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6038E46619120E760072DEDB /* Resources */ = {
+		605929DF192C0B14006EB15C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6038E47419120E760072DEDB /* InfoPlist.strings in Resources */,
+				605929ED192C0B15006EB15C /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6038E44319120E760072DEDB /* Sources */ = {
+		605929BC192C0B14006EB15C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6038E45B19120E760072DEDB /* EVXAppDelegate.m in Sources */,
-				6038E46119120E760072DEDB /* EVXViewController.m in Sources */,
-				6038E45719120E760072DEDB /* main.m in Sources */,
+				605929D4192C0B14006EB15C /* EVXAppDelegate.m in Sources */,
+				605929DA192C0B14006EB15C /* EVXViewController.m in Sources */,
+				605929D0192C0B14006EB15C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6038E46419120E760072DEDB /* Sources */ = {
+		605929DD192C0B14006EB15C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6038E47619120E760072DEDB /* ChatSendTests.m in Sources */,
+				605929EF192C0B15006EB15C /* chAtsEndTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6038E46E19120E760072DEDB /* PBXTargetDependency */ = {
+		605929E7192C0B15006EB15C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6038E44619120E760072DEDB /* ChatSend */;
-			targetProxy = 6038E46D19120E760072DEDB /* PBXContainerItemProxy */;
+			target = 605929BF192C0B14006EB15C /* chAtsEnd */;
+			targetProxy = 605929E6192C0B15006EB15C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6038E45319120E760072DEDB /* InfoPlist.strings */ = {
+		605929CC192C0B14006EB15C /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6038E45419120E760072DEDB /* en */,
+				605929CD192C0B14006EB15C /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		6038E45C19120E760072DEDB /* Main.storyboard */ = {
+		605929D5192C0B14006EB15C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6038E45D19120E760072DEDB /* Base */,
+				605929D6192C0B14006EB15C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		6038E47219120E760072DEDB /* InfoPlist.strings */ = {
+		605929EB192C0B15006EB15C /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6038E47319120E760072DEDB /* en */,
+				605929EC192C0B15006EB15C /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -302,7 +302,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		6038E47719120E760072DEDB /* Debug */ = {
+		605929F0192C0B15006EB15C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -340,7 +340,7 @@
 			};
 			name = Debug;
 		};
-		6038E47819120E760072DEDB /* Release */ = {
+		605929F1192C0B15006EB15C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -372,66 +372,66 @@
 			};
 			name = Release;
 		};
-		6038E47A19120E760072DEDB /* Debug */ = {
+		605929F3192C0B15006EB15C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ChatSend/ChatSend-Prefix.pch";
-				INFOPLIST_FILE = "ChatSend/ChatSend-Info.plist";
+				GCC_PREFIX_HEADER = "chAtsEnd/chAtsEnd-Prefix.pch";
+				INFOPLIST_FILE = "chAtsEnd/chAtsEnd-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		6038E47B19120E760072DEDB /* Release */ = {
+		605929F4192C0B15006EB15C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ChatSend/ChatSend-Prefix.pch";
-				INFOPLIST_FILE = "ChatSend/ChatSend-Info.plist";
+				GCC_PREFIX_HEADER = "chAtsEnd/chAtsEnd-Prefix.pch";
+				INFOPLIST_FILE = "chAtsEnd/chAtsEnd-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
-		6038E47D19120E760072DEDB /* Debug */ = {
+		605929F6192C0B15006EB15C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ChatSend.app/ChatSend";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/chAtsEnd.app/chAtsEnd";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ChatSend/ChatSend-Prefix.pch";
+				GCC_PREFIX_HEADER = "chAtsEnd/chAtsEnd-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "ChatSendTests/ChatSendTests-Info.plist";
+				INFOPLIST_FILE = "chAtsEndTests/chAtsEndTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
-		6038E47E19120E760072DEDB /* Release */ = {
+		605929F7192C0B15006EB15C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ChatSend.app/ChatSend";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/chAtsEnd.app/chAtsEnd";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ChatSend/ChatSend-Prefix.pch";
-				INFOPLIST_FILE = "ChatSendTests/ChatSendTests-Info.plist";
+				GCC_PREFIX_HEADER = "chAtsEnd/chAtsEnd-Prefix.pch";
+				INFOPLIST_FILE = "chAtsEndTests/chAtsEndTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -441,32 +441,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6038E44219120E760072DEDB /* Build configuration list for PBXProject "ChatSend" */ = {
+		605929BB192C0B14006EB15C /* Build configuration list for PBXProject "chAtsEnd" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6038E47719120E760072DEDB /* Debug */,
-				6038E47819120E760072DEDB /* Release */,
+				605929F0192C0B15006EB15C /* Debug */,
+				605929F1192C0B15006EB15C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6038E47919120E760072DEDB /* Build configuration list for PBXNativeTarget "ChatSend" */ = {
+		605929F2192C0B15006EB15C /* Build configuration list for PBXNativeTarget "chAtsEnd" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6038E47A19120E760072DEDB /* Debug */,
-				6038E47B19120E760072DEDB /* Release */,
+				605929F3192C0B15006EB15C /* Debug */,
+				605929F4192C0B15006EB15C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		6038E47C19120E760072DEDB /* Build configuration list for PBXNativeTarget "ChatSendTests" */ = {
+		605929F5192C0B15006EB15C /* Build configuration list for PBXNativeTarget "chAtsEndTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6038E47D19120E760072DEDB /* Debug */,
-				6038E47E19120E760072DEDB /* Release */,
+				605929F6192C0B15006EB15C /* Debug */,
+				605929F7192C0B15006EB15C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6038E43F19120E760072DEDB /* Project object */;
+	rootObject = 605929B8192C0B14006EB15C /* Project object */;
 }

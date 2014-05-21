@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6038E44619120E760072DEDB"
-               BuildableName = "ChatSend.app"
-               BlueprintName = "ChatSend"
-               ReferencedContainer = "container:ChatSend.xcodeproj">
+               BlueprintIdentifier = "605929BF192C0B14006EB15C"
+               BuildableName = "chAtsEnd.app"
+               BlueprintName = "chAtsEnd"
+               ReferencedContainer = "container:chAtsEnd.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6038E46719120E760072DEDB"
-               BuildableName = "ChatSendTests.xctest"
-               BlueprintName = "ChatSendTests"
-               ReferencedContainer = "container:ChatSend.xcodeproj">
+               BlueprintIdentifier = "605929E0192C0B14006EB15C"
+               BuildableName = "chAtsEndTests.xctest"
+               BlueprintName = "chAtsEndTests"
+               ReferencedContainer = "container:chAtsEnd.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6038E44619120E760072DEDB"
-            BuildableName = "ChatSend.app"
-            BlueprintName = "ChatSend"
-            ReferencedContainer = "container:ChatSend.xcodeproj">
+            BlueprintIdentifier = "605929BF192C0B14006EB15C"
+            BuildableName = "chAtsEnd.app"
+            BlueprintName = "chAtsEnd"
+            ReferencedContainer = "container:chAtsEnd.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -61,10 +61,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6038E44619120E760072DEDB"
-            BuildableName = "ChatSend.app"
-            BlueprintName = "ChatSend"
-            ReferencedContainer = "container:ChatSend.xcodeproj">
+            BlueprintIdentifier = "605929BF192C0B14006EB15C"
+            BuildableName = "chAtsEnd.app"
+            BlueprintName = "chAtsEnd"
+            ReferencedContainer = "container:chAtsEnd.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -79,10 +79,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6038E44619120E760072DEDB"
-            BuildableName = "ChatSend.app"
-            BlueprintName = "ChatSend"
-            ReferencedContainer = "container:ChatSend.xcodeproj">
+            BlueprintIdentifier = "605929BF192C0B14006EB15C"
+            BuildableName = "chAtsEnd.app"
+            BlueprintName = "chAtsEnd"
+            ReferencedContainer = "container:chAtsEnd.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
