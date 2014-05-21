@@ -1,8 +1,8 @@
 //
 //  EVXAppDelegate.h
-//  ChatSend
+//  chAtsEnd
 //
-//  Created by evx on 5/1/14.
+//  Created by evx on 5/20/14.
 //  Copyright (c) 2014 evxyz001. All rights reserved.
 //
 
