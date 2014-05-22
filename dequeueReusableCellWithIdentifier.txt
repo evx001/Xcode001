@@ -1,0 +1,20 @@
+// snipped from EVXMasterTableViewController
+
+
+
+//// solution attempt two //// 
+Static cells, instead of Prototype cells 
+Just change your UITableView Content type.
+?? Error appears for each cell : Connection "Cell1" cannot have a prototype object as its destination. 
+then 
+Actually, you should have just one Prototype cell. Which is the error anyway? 
+
+
+/////// solution attempt 1 ////////////
+{
+    static NSString *CellIdentifier= @"Cell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:CellIdentifier];
+    
+    if(cell == nil){
+        cell = [[customCell alloc]init];
+    }
