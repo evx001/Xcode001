@@ -42,7 +42,15 @@
     [self presentViewController:myPicker animated:YES completion:nil];
 }
 -(IBAction)shareTapped:(id)sender{
-    (NSLog(@"ShareTapper!!"));
+    // (NSLog(@"ShareTapper!!"));
+    UIImage *savedImage= [self saveImageMessage];
+    // the sharing part
+    
+    UIActivityViewController *myActivityController = [[UIActivityViewController alloc]initWithActivityItems:@[savedImage] applicationActivities:nil];
+    
+    [self presentViewController:myActivityController animated: YES completion:nil];
+    
+    
 }
 
 -(void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
