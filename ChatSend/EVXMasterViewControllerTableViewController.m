@@ -56,6 +56,7 @@
 
 // the main part of TableView
 // we need to connect this to our story board
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier= @"Cell";
@@ -67,8 +68,15 @@
     
     return cell;
 }
-
-
+//////////////////////////////////////////////
+//- (UITableViewCell *)cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier] {
+//    static NSString *CellIdentifier= @"Cell";
+//     UITableViewCell *cell = [UITableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:NSindexPath];
+//
+// cell.textLabel.text = @"Hello World!";
+//     return cell;
+//}
+//////////////////////////////////////////////
 /*
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
