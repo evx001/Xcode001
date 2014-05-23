@@ -9,7 +9,8 @@
 #import "EVXViewController.h"
 
 @interface EVXViewController (){
-       IBOutlet UIImageView *myImageView;
+    IBOutlet UIImageView *myImageView;
+    IBOutlet UITextField *myTextField;
 }
 
 @end

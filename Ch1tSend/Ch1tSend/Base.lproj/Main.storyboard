@@ -32,6 +32,7 @@
                     <navigationItem key="navigationItem" title="Ch1tSend" id="mDy-oF-N87"/>
                     <connections>
                         <outlet property="myImageView" destination="yWB-8B-06R" id="ZUM-Xa-Tyd"/>
+                        <outlet property="myTextField" destination="wC0-cg-YkF" id="Rzg-AG-g4i"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
