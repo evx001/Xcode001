@@ -74,8 +74,9 @@
     [self presentViewController:myPicker animated:YES completion:nil];
 
 }
-
-
+-(IBAction)shareTapped:(id)sender{
+    (NSLog(@"ShareTapper!!"));
+}
 -(void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
 {
     UIImage *selectedImage = info[UIImagePickerControllerOriginalImage];

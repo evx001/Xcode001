@@ -47,7 +47,7 @@
     [self presentViewController:myPicker animated:YES completion:nil];
 }
 -(IBAction)shareTapped:(id)sender{
-    // (NSLog(@"ShareTapper!!"));
+    (NSLog(@"ShareTapper!!"));
     UIImage *savedImage= [self saveImageMessage];
     // the sharing part
     
