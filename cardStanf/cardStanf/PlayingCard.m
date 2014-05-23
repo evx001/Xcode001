@@ -12,7 +12,7 @@
 
 - (NSString *)contents
 {
-    NSArray *rankStrings = @[@"?",@"A",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"9",@"10",@"J",@"Q",@"K"];// string objects are what go in the Array not strings
+    NSArray *rankStrings =
     return [rankStrings[self.rank] stringByAppendingString:self.suit];
 }
 
@@ -34,6 +34,9 @@
 {
     return _suit ? _suit : @"?";
 }
-
++(NSArray *)rankStrings{
+    return @[@"?",@"A",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"9",@"10",@"J",@"Q",@"K"];// string objects are what go in the Array not strings
+            // placed here for readability
+}
 
 @end
