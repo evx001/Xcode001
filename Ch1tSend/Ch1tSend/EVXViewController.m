@@ -17,12 +17,9 @@
 
 @implementation EVXViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad]; // this only once on first load but that isn't the same as displaying continually.
-    // [[ .......alloc] init]  vs   presentViewController.
-	// Do any additional setup after loading the view, typically from a nib.
-
+- (void)viewDidLoad{
+    [super viewDidLoad];
+    NSLog(@"View Did Load!");
     UIBarButtonItem *cameraButton = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemCamera target:self action:@selector(cameraTapped:) ];
     UIBarButtonItem *shareButton = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:@selector(shareTapped:) ];
     self.navigationItem.rightBarButtonItems = @[cameraButton,shareButton];
