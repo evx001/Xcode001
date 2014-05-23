@@ -12,7 +12,7 @@
 
 - (NSString *)contents
 {
-    NSArray *rankStrings =
+    NSArray *rankStrings = [PlayingCard rankStrings];
     return [rankStrings[self.rank] stringByAppendingString:self.suit];
 }
 
