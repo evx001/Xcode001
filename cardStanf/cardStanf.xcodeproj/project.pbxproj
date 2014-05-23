@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		600BC551192FF4CA00345087 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 600BC550192FF4CA00345087 /* PlayingCardDeck.m */; };
 		60C76887192619FA0009D1C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C76886192619FA0009D1C5 /* Foundation.framework */; };
 		60C76889192619FA0009D1C5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C76888192619FA0009D1C5 /* CoreGraphics.framework */; };
 		60C7688B192619FA0009D1C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C7688A192619FA0009D1C5 /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		600BC54F192FF4CA00345087 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		600BC550192FF4CA00345087 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
 		60C76883192619FA0009D1C5 /* cardStanf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cardStanf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60C76886192619FA0009D1C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		60C76888192619FA0009D1C5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -122,6 +125,8 @@
 				60C768B719261C620009D1C5 /* Card.m */,
 				60F296B019280D50008CF748 /* PlayingCard.h */,
 				60F296B119280D97008CF748 /* PlayingCard.m */,
+				600BC54F192FF4CA00345087 /* PlayingCardDeck.h */,
+				600BC550192FF4CA00345087 /* PlayingCardDeck.m */,
 				60CA11921926AC4800B06135 /* Deck.h */,
 				60CA11931926AC4800B06135 /* Deck.m */,
 				60C76898192619FA0009D1C5 /* Images.xcassets */,
@@ -259,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60C76897192619FA0009D1C5 /* AppDelegate.m in Sources */,
+				600BC551192FF4CA00345087 /* PlayingCardDeck.m in Sources */,
 				60C768B819261C620009D1C5 /* Card.m in Sources */,
 				60CA11941926AC4800B06135 /* Deck.m in Sources */,
 				60F296B219280D97008CF748 /* PlayingCard.m in Sources */,
