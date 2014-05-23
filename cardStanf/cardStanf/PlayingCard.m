@@ -38,5 +38,9 @@
     return @[@"?",@"A",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"9",@"10",@"J",@"Q",@"K"];// string objects are what go in the Array not strings
             // placed here for readability
 }
++ (NSUInteger)maxRank {
+    return [[self rankStrings]count]-1;}
+
+
 
 @end
