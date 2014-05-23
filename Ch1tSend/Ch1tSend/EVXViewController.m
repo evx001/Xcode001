@@ -19,7 +19,8 @@
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
+    [super viewDidLoad]; // this only once on first load but that isn't the same as displaying continually.
+    // [[ .......alloc] init]  vs   presentViewController.
 	// Do any additional setup after loading the view, typically from a nib.
 
     UIBarButtonItem *cameraButton = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemCamera target:self action:@selector(cameraTapped:) ];
@@ -29,7 +30,13 @@
     
     // [myImageView setImage:[UIImage imageNamed:@"food already"]];
 }
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
 
+    myTextField.text = self.imageText;
+
+}
 
 - (void)didReceiveMemoryWarning
 {
