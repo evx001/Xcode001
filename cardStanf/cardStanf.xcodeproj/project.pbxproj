@@ -119,8 +119,6 @@
 		60C7688C192619FA0009D1C5 /* cardStanf */ = {
 			isa = PBXGroup;
 			children = (
-				60C76895192619FA0009D1C5 /* AppDelegate.h */,
-				60C76896192619FA0009D1C5 /* AppDelegate.m */,
 				60C768B519261C330009D1C5 /* Card.h */,
 				60C768B719261C620009D1C5 /* Card.m */,
 				60F296B019280D50008CF748 /* PlayingCard.h */,
@@ -138,6 +136,8 @@
 		60C7688D192619FA0009D1C5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				60C76895192619FA0009D1C5 /* AppDelegate.h */,
+				60C76896192619FA0009D1C5 /* AppDelegate.m */,
 				60C7688E192619FA0009D1C5 /* cardStanf-Info.plist */,
 				60C7688F192619FA0009D1C5 /* InfoPlist.strings */,
 				60C76892192619FA0009D1C5 /* main.m */,
