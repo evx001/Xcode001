@@ -10,6 +10,6 @@
 @interface PlayingCard : Card
 @property (strong, nonatomic) NSString *suit;
 @property (nonatomic) NSUInteger rank; // 64bit integer possible
-
++(NSArray *)validSuits;
 @end
 
