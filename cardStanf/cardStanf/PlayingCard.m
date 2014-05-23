@@ -12,16 +12,20 @@
 
 - (NSString *)contents
 {
-    NSArray *rankStrings = @[@"?",@"A",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"9",@"10",@"J",@"Q",@"K"];// string objects are what go in the Array not strings.
+    NSArray *rankStrings = @[@"?",@"A",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"9",@"10",@"J",@"Q",@"K"];// string objects are what go in the Array not strings
     return [rankStrings[self.rank] stringByAppendingString:self.suit];
 }
 
 
-@synthesize suit = _suit; // because we provide getter and setter
-
+@synthesize suit = _suit; // because we implemented a getter and setter
++(NSArray *)validSuits // not this is a class var
+// used for creating things and untility methods
+{
+    return @[@"♥️",@"♦️",@"♠️",@"♣️"];
+}
 -(void)setSuit:(NSString *)suit
 {
-    if ([@[@"♥️",@"♦️",@"♠️",@"♣️"] containsObject:suit]) {
+    if ([[PlayingCard validSuits] containsObject:suit]) {
          _suit = suit;
     }
 }
