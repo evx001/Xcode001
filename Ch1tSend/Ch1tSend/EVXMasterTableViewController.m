@@ -7,7 +7,7 @@
 //
 
 #import "EVXMasterTableViewController.h"
-
+#import "EVXViewController.h"
 @interface EVXMasterTableViewController (){
  // IBOutlet UIImageView *myImageView;
 }
@@ -29,7 +29,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    NSLog(@"LOADED !!!"); 
+    NSLog(@"LOADED !!!");
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -124,7 +124,7 @@
 }
 */
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -132,7 +132,10 @@
 {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    
+    EVXViewController *myEVXViewController = [segue destinationViewController];
+    myEVXViewController.imageName = @"something";
 }
-*/
+
 
 @end

@@ -9,8 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface EVXViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate> 
-@property (weak, nonatomic) NSString *imageName;
-@property (weak, nonatomic) NSString *imageText;
+@property (strong, nonatomic) NSString *imageName;
+@property (strong, nonatomic) NSString *imageText;
 
 -(IBAction)cameraTapped:(id)sender; // remember to add the actioin in .m
 -(IBAction)shareTapped:(id)sender;
