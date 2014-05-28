@@ -1,0 +1,7 @@
+[command] + [shift] + B  
+	"Builds but doesn't run but checks for errors"
+
+[command] + B  
+	"Builds only" 
+
+ 

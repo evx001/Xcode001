@@ -1,0 +1,155 @@
+
+
+Class 
+	header plus interface 
+	.h and .m 
+
+Subclass 
+	inheritense 
+
+Superclass/parent class 
+
+Singleton 
+	class instantiated for the program life cycle 
+	
+Object/instance 
+	invoked and active class 
+	objects are classes in action 
+	an instance of a class
+
+Instatiation 
+	activating an object 
+
+Instance Method 
+
+Category 
+	a means of extending a class without modifying class code
+
+Class method 
+	method applicable to all objects in a class. 
+
+Message 
+	when we want an  object to do something we send it a message. 
+
+Variable 
+	a stored value 
+	with local scope 
+	contrast with instance variables 
+
+Parameter
+	values provided to methods when they are messaged 
+
+Property 
+	an abstraction of an instance variable cofigured using special directives 
+	can be public or private 
+
+Protocol 
+	declare methods that can be implemented by a class for objects 
+	A class implementing a protocol is said to conform to it. 
+	think JAva interface
+
+Self 
+	How methods refer to the object they are within 
+
+
+/////////////////////////////////////////////////////////////////////////////
+
+<objectName>.<propertyName> 
+	getting a property from an object 
+
+self.<propertyName> 
+	self for getting from withib an object 
+
+////////////////////////////////////////////////////////////////////////////
+
+
+IBAction 
+	method triggered via a connection created in InterfaceBuilder. 
+
+///////////////////////////////////////////////////////////////////////////
+
+declaration 
+<Type> <Variable Name>;
+
+
+[[<class name> alloc] init]; 
+
+-- or --
+
+[<class name> new]; 
+
+
+UILAbel *myLabel; 
+myLAbel=[UILabel new]; 
+
+anImportantClass *myKnownObject=(anImportantClass *)unknownObject; 
+
+((anImportantClass *).anImportantProperty 
+
+[<object variable> <method name>:<parameter value> additionalParameter:<parameter value>]; 
+
+////////////////////////////////////////////////////////////////////////////
+
+() groups expressions together 
+! Negates the result of an expression resulting in it the opposite 
+
+////////////////////////////////////////////////////////////////////////////
+
+if (<expression>) { 
+	// do this if expression true 
+} else { 
+	// the expression not true do this instead 
+} 
+//////////////////////////////////////////////////////////////////////////
+switch (<numeric value>) { 
+	case <numeric option 1>: 
+	// value matches this option // pattern
+	break; 
+	case <numeric option 2>: 
+	// value matches this option // pattern
+	break; 
+default: 
+	// None of the options match // otherwise
+}
+//////////////////////////////////////////////////////////////////////////
+for (<initialization>;<test condition>;<count update>) { 
+	// Do this over and over 
+}
+
+int count;
+	for (count=0;count<50;count=count+1) { 
+		// do this 50 times 
+} 
+
+//////////////////////////////////////////////////////////////////////////
+// checks true before starting 
+while (<expression>) { 
+	// do this while expression is true 
+}
+
+// checks after first run 
+do { 
+	// Do this over and over, while the expression is true
+} while (<expression>); 
+
+
+///////////////////////////////////////////////////////////////////////////
+
+Auto Ref COunting (ARC)  
+	LLVM :
+
+Strong 
+	is for things that might get cleared 
+	this is the last remaining place you will have to message a release
+		self.myObject=nil; 
+
+Weak 
+	is for things we want to get cleared when nothing gets pointed to them
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////
+
+
